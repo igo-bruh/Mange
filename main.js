@@ -7,8 +7,7 @@ const createWindow = () => {
   })
 
   win.loadFile('index.html')
-
-  win.setmenubarVisibility(false);
+  win.setMenuBarVisibility(false)
 }
 
 app.whenReady().then(() => {
